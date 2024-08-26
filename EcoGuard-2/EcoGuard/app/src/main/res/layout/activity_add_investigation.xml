@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".AddInvestigationActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/investigations"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/complaint_no"
+            android:textColor="@color/black"
+            android:layout_marginStart="30dp"
+            android:textSize="18sp"
+            android:layout_gravity="center_vertical"/>
+
+        <EditText
+            android:id="@+id/editTextLogNo"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="40dp"
+            android:hint="@string/enter_no"
+            android:textSize="20sp"
+            android:inputType="date" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:text="@string/condition"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+        <Spinner
+            android:id="@+id/spinner_status"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="40dp"
+            android:spinnerMode="dropdown"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:textColor="@color/black"
+            android:layout_margin="30dp"
+            android:textSize="20sp"
+            android:layout_gravity="center_vertical"/>
+
+        <EditText
+            android:id="@+id/editTextDate"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="40dp"
+            android:hint="@string/yyyy_mm_dd"
+            android:textSize="20sp"
+            android:inputType="date" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/investigation_details"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textSize="22sp"/>
+
+        <EditText
+            android:id="@+id/TxtInvestigationDetails"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="30dp"
+            android:textSize="16sp"
+            android:hint="@string/brief_statement"
+            android:textAlignment="textStart"
+            android:inputType="text"/>
+        <Button
+            android:id="@+id/btnUploadEvidence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="90dp"
+            android:text="@string/upload_evidence"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView_InvestigationProofUri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="90dp"
+            android:text="@string/submit"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

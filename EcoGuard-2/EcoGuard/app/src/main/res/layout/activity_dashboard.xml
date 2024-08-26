@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/complaint_status"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"/>
+
+    </RelativeLayout>
+
+    <!-- Assigned Tasks -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="30dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:text="@string/assigned_tasks"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/textAssignedTasks"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginEnd="30dp"/>
+
+    </LinearLayout>
+
+    <!-- Ongoing Investigations -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="30dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:text="@string/ongoing_investigations"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/textOngoingInvestigations"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginEnd="30dp" />
+
+    </LinearLayout>
+
+    <!-- Pending Actions -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="30dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:text="@string/completed_tasks"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/textCompletedTasks"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginEnd="30dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_view_complaints"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="50dp"
+        android:text="@string/view_complaints" />
+
+    <Button
+        android:id="@+id/btn_official_investigations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="50dp"
+        android:text="@string/official_investigations" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="35dp"
+        android:layout_marginHorizontal="120dp"
+        android:text="@string/logout"
+        android:onClick="logout"/>
+
+</LinearLayout>

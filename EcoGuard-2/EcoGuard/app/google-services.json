@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1070353043493",
+    "project_id": "ecoguard-d5ba3",
+    "storage_bucket": "ecoguard-d5ba3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070353043493:android:2387b0d768c4ffe190efcc",
+        "android_client_info": {
+          "package_name": "com.example.ecoguard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpquP9SSp8iVcFI17P5FYmk1hjmonOERw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

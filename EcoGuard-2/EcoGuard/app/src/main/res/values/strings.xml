@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">EcoGuard</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already have an Account?</string>
+    <string name="login">Login</string>
+    <string name="upload_evidence">Upload Evidence</string>
+    <string name="create">Create</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="investigation_details">Investigation Details</string>
+    <string name="update_status">Update Status</string>
+    <string name="submit">Submit</string>
+    <string name="assigned_tasks">Assigned Tasks:</string>
+    <string name="ongoing_investigations">Ongoing Tasks:</string>
+    <string name="completed_tasks">Completed Tasks:</string>
+    <string name="add_complaint">Add Complaint</string>
+    <string name="complaint_description">The water is very dirty and non-hygnenic around Kelani River at Kelani Bridge, Peliyagoda</string>
+    <string name="Status">Status :</string>
+    <string name="water">Water</string>
+    <string name="view_complaints">View Complaints</string>
+    <string name="mark_as_complete">Mark as Complete</string>
+    <string name="reply">Reply…</string>
+    <string name="mark_as_in_progress">Mark as In Progress</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="ecoguard">EcoGuard!</string>
+    <string name="enter_login">Enter Login</string>
+    <string name="save">Save</string>
+    <string name="official_investigations">Official Investigations</string>
+    <string name="complaint_status">Complaint Status</string>
+    <string name="logout">Logout</string>
+    <string name="title">Title</string>
+    <string name="date">Date :</string>
+    <string name="log_no">Log No</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="complaint_title">Complaint Title :</string>
+    <string name="complaint_date">Complaint Date :</string>
+    <string name="yyyy_mm_dd">YYYY/MM/DD</string>
+    <string name="create_new_account">create new account</string>
+    <string name="investigations">Investigations</string>
+    <string name="brief_statement">state the details briefly...</string>
+    <string name="investigation_records">Investigation Records</string>
+    <string name="complaint_records">Complaint Records</string>
+    <string name="registration">Registration</string>
+    <string name="water_pollution">Water Pollution</string>
+    <string name="status">status :</string>
+    <string name="start_investigation">Start Investigation</string>
+    <string name="complaint_no">Complaint No :</string>
+    <string name="select_complaint_no">select complaint no</string>
+    <string name="enter_no">Enter No</string>
+    <string name="condition">Condition :</string>
+    <string name="todo">TODO</string>
+
+    <string-array name="status_array">
+        <item>Worst</item>
+        <item>Bad</item>
+        <item>Average</item>
+        <item>Good</item>
+        <item>Better</item>
+    </string-array>
+</resources>
